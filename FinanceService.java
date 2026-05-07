@@ -9,6 +9,5 @@ public interface FinanceService {
         public default void create_goal(String name, double target, String deadline, double initial) {
         System.out.println("New financial goal created: " + name);
         System.out.println("Target: " + target + " | Initial Saved: " + initial + " | Deadline: " + deadline);
-        // يمكنك لاحقاً إنشاء كائن من كلاس FinancialGoal وحفظه في List هنا
     }
 }
