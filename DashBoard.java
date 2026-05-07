@@ -3,7 +3,7 @@ package boundries;
 public class DashBoard {
     public DashBoard() {}
 
-    // تم تعديل الأسماء لتصبح camelCase
+    
     public void showRecentTransaction() {
         System.out.println("Displaying recent transactions on the dashboard...");
     }
