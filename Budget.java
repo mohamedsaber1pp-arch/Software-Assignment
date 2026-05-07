@@ -25,7 +25,7 @@ public class Budget {
         return monthlyLimit - spentAmount;
     }
 
-    // تم تعديل الأسماء لتتوافق مع القاعدة
+    
     public void updateSpent(double amount) {
         this.spentAmount += amount;
     }
