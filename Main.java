@@ -41,7 +41,7 @@ public class Main {
                     }
                     auth.register(name, email, pass, isAdmin);
                 } else if (choice == 2) {
-                    // تم التعديل للاسم الجديد
+                    
                     loginScreen.displayLogin();
 
                     System.out.print("Email: "); String email = input.nextLine();
@@ -50,10 +50,10 @@ public class Main {
 
                     if (loggedInUser != null) {
                         System.out.println("Welcome " + loggedInUser.getName());
-                        // تم التعديل للاسم الجديد
+                        
                         loginScreen.redirectToDashboard();
                     } else {
-                        // تم التعديل للاسم الجديد اللي كان عامل المشكلة
+                        
                         loginScreen.showErrorMessage();
                     }
                 } else if (choice == 3) {
@@ -80,7 +80,7 @@ public class Main {
 
                     switch (action) {
                         case 1:
-                            // تم التعديل للأسماء الجديدة
+                            
                             db.refreshDisplay();
                             System.out.println("Current Total Balance: " + finance.getBalance());
                             System.out.println("Current Budget Limit: " + userBudget.getMonthlyLimit());
@@ -92,7 +92,7 @@ public class Main {
                             input.nextLine();
                             System.out.print("Category: "); String cat = input.nextLine();
 
-                            // تم التعديل للاسم الجديد
+                            
                             finance.addExpense(exp, cat, "2024-05-08", userBudget);
 
                             if (userBudget.checkAlert()) {
@@ -104,7 +104,7 @@ public class Main {
                             input.nextLine();
                             System.out.print("Source: "); String src = input.nextLine();
 
-                            // تم التعديل للاسم الجديد
+                            
                             finance.addIncome(inc, src, "2024-05-08");
                             break;
                         case 4:
@@ -115,7 +115,7 @@ public class Main {
                             System.out.print("Goal Name: "); String gName = input.nextLine();
                             System.out.print("Target Amount: "); double t = input.nextDouble();
 
-                            // تم التعديل للاسم الجديد
+                            
                             finance.createGoal(gName, t, "2025-01-01", 0);
                             break;
                         case 6:
