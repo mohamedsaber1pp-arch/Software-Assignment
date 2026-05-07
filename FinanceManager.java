@@ -1,6 +1,6 @@
 package controls;
 
-// تم إلغاء الاستيراد بالنجمة واستخدام الاستيراد الصريح
+
 import entities.Transaction;
 import entities.Income;
 import entities.Expense;
@@ -12,7 +12,7 @@ public class FinanceManager {
     private double currentBalance = 0;
     private List<Transaction> history = new ArrayList<>();
 
-    // تعديل الاسم
+    
     public void addIncome(double amount, String src, String date) {
         Income inc = new Income(amount, src, date);
         history.add(inc);
@@ -20,7 +20,7 @@ public class FinanceManager {
         inc.addTransaction();
     }
 
-    // تعديل الاسم
+   
     public void addExpense(double amount, String cat, String date, Budget budget) {
         Expense exp = new Expense(amount, cat, date);
         history.add(exp);
@@ -58,7 +58,7 @@ public class FinanceManager {
         return currentBalance;
     }
 
-    // تعديل الاسم
+   م
     public void createGoal(String name, double target, String deadline, double initial) {
         System.out.println("Goal created: " + name + " | Target: " + target);
     }
