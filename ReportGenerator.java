@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Date;
 
 public class ReportGenerator {
-    private String reportType; // تعديل اسم المتغير
+    private String reportType;
 
     public ReportGenerator() {}
 
