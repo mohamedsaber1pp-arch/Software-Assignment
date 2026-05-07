@@ -20,7 +20,7 @@ public class FinancialGoal {
     }
 
     public double calcPercentage() {
-        // إضافة الأقواس المعقوفة للجملة الشرطية
+       
         if (targetAmount > 0) {
             return (currentAmount / targetAmount) * 100;
         }
