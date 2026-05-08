@@ -6,7 +6,21 @@ import boundries.DashBoard;
 import boundries.LoginScreen;
 import java.util.Scanner;
 
+/**
+ * The entry point of the Personal Finance Application.
+ * This class coordinates the main execution loop, handling user authentication,
+ * session management for Admin/Standard users, and routing to various 
+ * financial features.
+ * * @author OurTeam
+ * @version 1.0
+ */
 public class Main {
+
+    /**
+     * The main execution method that initializes the system components and 
+     * manages the primary console-based User Interface.
+     * * @param args Command line arguments (not utilized).
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         AuthController auth = new AuthController();
