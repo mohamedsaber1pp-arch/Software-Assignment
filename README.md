@@ -1,10 +1,8 @@
-==================================================
 Project Name: Personal Budget Management System
 Student Name: -Ali ashraf sayed
 -Mohamed saber
 -Abdalla Khaled Gamil
 -John Samy GadElkareem
-==================================================
 
 1. PROJECT OVERVIEW
 -------------------
